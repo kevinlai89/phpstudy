@@ -4,9 +4,9 @@
   <view class="section section_gap">
     <view class="section__title">关注的产品:</view>
     <checkbox-group name="product">
-      <label><checkbox value="0"/>微商城</label>
-      <label><checkbox value="1"/>微社区</label>
-      <label><checkbox value="2"/>乐摇</label>
+      <label><checkbox value="0"/>刀柄</label>
+      <label><checkbox value="1"/>角度头</label>
+      <label><checkbox value="2"/>对刀仪</label>
     </checkbox-group>
   </view>  
   <view class="section section_gap">
@@ -14,7 +14,7 @@
     <radio-group name="from">
       <label><radio value="0"/>百度搜索来的</label>
       <label><radio value="1"/>朋友介绍</label>
-      <label><radio value="2"/>公众号推送</label>
+      <label><radio value="2"/>阿里巴巴</label>
     </radio-group>
   </view>
  <view class="section section_gap">
@@ -34,7 +34,7 @@
 </view>
 
   <view class="section section_gap">
-    <view class="section__title">你是前端开发人员吗:</view>
+    <view class="section__title">你是机床行业人员吗:</view>
     <switch name="is_dev" value="{{is_dev}}" />
   </view>
 

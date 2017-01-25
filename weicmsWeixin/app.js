@@ -57,5 +57,9 @@ App({
   globalData: {
     userInfo: null
   },
-  url: 'https://你的域名/index.php?s=/'
+  url: 'http://localhost:6001/index.php?s='
+   //http://120.25.151.79:808/index.php?s=addon/cms/cms/getlist3.         
+ // url: ' http://120.25.151.79:808/index.php?s='
+ 
+
 })

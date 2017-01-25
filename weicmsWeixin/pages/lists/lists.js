@@ -10,7 +10,7 @@ Page({
     isfrist:1,
     loadHidden:true,
     moreHidden:'none',
-    msg:'没有更多文章了'
+    msg:'没有更多产品了'
   },
   loadData: function (lastid){
     //显示出加载中的提示

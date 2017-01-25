@@ -10,7 +10,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "WeiCMS",
+    "navigationBarTitleText": "思诚报价平台",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
