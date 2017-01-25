@@ -15,17 +15,17 @@ return array(
 		// 数据库配置
         'DB_TYPE'   => 'mysql', // 数据库类型
         'DB_HOST'   => '127.0.0.1', // 服务器地址
-        'DB_NAME'   => 'cms', // 数据库名
+        'DB_NAME'   => 'weicmsServer', // 数据库名
         'DB_USER'   => 'root', // 用户名
-        'DB_PWD'    => '',  // 密码
+        'DB_PWD'    => 'root',  // 密码
         'DB_PORT'   => '3306', // 端口
-        'DB_PREFIX' => 'wp_', // 数据库表前缀
+        'DB_PREFIX' => 'kevin', // 数据库表前缀
 		'DB_PARAMS' => array (
 				\PDO::ATTR_CASE => \PDO::CASE_NATURAL 
 		),
 		
 		// 系统数据加密设置
-		'DATA_AUTH_KEY' => '0m";!HM1w&vZGRCQ$V+Y.*:9d}KjUyk<zxL=Dg8E', // 默认数据加密KEY
+		'DATA_AUTH_KEY' => 'L2JBGIE`}]k/QOpT7(ljZ"!eU0w?;%AYyz@u&[#C', // 默认数据加密KEY
 		                                                               
 		// 调试配置
 		'SHOW_PAGE_TRACE' => false,

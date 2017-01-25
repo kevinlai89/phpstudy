@@ -4,7 +4,7 @@ namespace Addons\Cms;
 use Common\Controller\Addon;
 
 /**
- * 微信小程序CMS插件
+ * 微信小程序报价平台插件
  * @author 凡星
  */
 
@@ -12,8 +12,8 @@ use Common\Controller\Addon;
 
         public $info = array(
             'name'=>'Cms',
-            'title'=>'微信小程序CMS',
-            'description'=>'微信小程序CMS内容管理系统',
+            'title'=>'微信小程序报价平台',
+            'description'=>'微信小程序报价平台内容管理系统',
             'status'=>1,
             'author'=>'凡星',
             'version'=>'0.1',

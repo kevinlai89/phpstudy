@@ -119,7 +119,7 @@ CREATE TABLE `wp_addons` (
 -- ----------------------------
 -- Records of wp_addons
 -- ----------------------------
-INSERT INTO `wp_addons` VALUES ('167', 'Cms', '微信小程序CMS', '微信小程序CMS内容管理系统', '1', 'null', '凡星', '0.1', '1474906191', '1', '0', '2', '1');
+INSERT INTO `wp_addons` VALUES ('167', 'Cms', '微信小程序报价平台', '微信小程序报价平台内容管理系统', '1', 'null', '凡星', '0.1', '1474906191', '1', '0', '2', '1');
 INSERT INTO `wp_addons` VALUES ('168', 'Feedback', '用户反馈', '', '1', 'null', '凡星', '0.1', '1475997576', '1', '0', null, '1');
 
 -- ----------------------------
@@ -320,7 +320,7 @@ INSERT INTO `wp_attribute` VALUES ('75', 'interface_url', '接口地址', 'varch
 INSERT INTO `wp_attribute` VALUES ('76', 'headface_url', '公众号头像', 'varchar(255) NULL', 'picture', '', '', '1', '', '6', 'public', '0', '1', '1429847363', '1391576300', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('77', 'area', '地区', 'varchar(50) NULL', 'string', '', '', '0', '', '6', 'public', '0', '1', '1392946934', '1391576435', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('78', 'addon_config', '插件配置', 'text NULL', 'textarea', '', '', '0', '', '6', 'public', '0', '1', '1391576537', '1391576537', '', '3', '', 'regex', '', '3', 'function');
-INSERT INTO `wp_attribute` VALUES ('79', 'addon_status', '插件状态', 'text NULL', 'textarea', '', '', '0', '167:微信小程序CMS\r\n168:用户反馈\r\n', '6', 'public', '0', '1', '1391576571', '1391576571', '', '3', '', 'regex', '', '3', 'function');
+INSERT INTO `wp_attribute` VALUES ('79', 'addon_status', '插件状态', 'text NULL', 'textarea', '', '', '0', '167:微信小程序报价平台\r\n168:用户反馈\r\n', '6', 'public', '0', '1', '1391576571', '1391576571', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('80', 'type', '公众号类型', 'char(10) NULL', 'radio', '0', '', '1', '0:普通订阅号\r\n1:认证订阅号/普通服务号\r\n2:认证服务号', '6', 'public', '0', '1', '1416904702', '1393718575', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('81', 'appid', 'AppID', 'varchar(255) NULL', 'string', '', '应用ID', '1', '', '6', 'public', '0', '1', '1416904750', '1393718735', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('82', 'secret', 'AppSecret', 'varchar(255) NULL', 'string', '', '应用密钥', '1', '', '6', 'public', '0', '1', '1416904771', '1393718806', '', '3', '', 'regex', '', '3', 'function');
@@ -334,11 +334,11 @@ INSERT INTO `wp_attribute` VALUES ('89', 'GammaSecret', 'GammaSecret', 'varchar(
 INSERT INTO `wp_attribute` VALUES ('90', 'public_copy_right', '版权信息', 'varchar(255) NULL', 'string', '', '', '1', '', '6', 'public', '0', '1', '1431141576', '1431141576', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('91', 'domain', '自定义域名', 'varchar(30) NULL', 'string', '', '', '0', '', '6', 'public', '0', '1', '1439698931', '1439698931', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('92', 'title', '等级名', 'varchar(50) NULL', 'string', '', '', '1', '', '7', 'public_group', '0', '1', '1393724854', '1393724854', '', '3', '', 'regex', '', '3', 'function');
-INSERT INTO `wp_attribute` VALUES ('93', 'addon_status', '插件权限', 'text NULL', 'checkbox', '', '', '1', '167:微信小程序CMS\r\n168:用户反馈\r\n', '7', 'public_group', '0', '1', '1393731903', '1393725072', '', '3', '', 'regex', '', '3', 'function');
+INSERT INTO `wp_attribute` VALUES ('93', 'addon_status', '插件权限', 'text NULL', 'checkbox', '', '', '1', '167:微信小程序报价平台\r\n168:用户反馈\r\n', '7', 'public_group', '0', '1', '1393731903', '1393725072', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('94', 'uid', '管理员UID', 'int(10) NULL ', 'admin', '', '', '1', '', '8', 'public_link', '1', '1', '1447215599', '1398933236', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('95', 'mp_id', '公众号ID', 'int(10) unsigned NOT NULL ', 'num', '', '', '4', '', '8', 'public_link', '1', '1', '1398933300', '1398933300', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('96', 'is_creator', '是否为创建者', 'tinyint(2) NULL', 'bool', '0', '', '0', '0:不是\r\n1:是', '8', 'public_link', '0', '1', '1398933380', '1398933380', '', '3', '', 'regex', '', '3', 'function');
-INSERT INTO `wp_attribute` VALUES ('97', 'addon_status', '插件权限', 'text NULL', 'checkbox', '', '', '1', '167:微信小程序CMS\r\n168:用户反馈\r\n', '8', 'public_link', '0', '1', '1398933475', '1398933475', '', '3', '', 'regex', '', '3', 'function');
+INSERT INTO `wp_attribute` VALUES ('97', 'addon_status', '插件权限', 'text NULL', 'checkbox', '', '', '1', '167:微信小程序报价平台\r\n168:用户反馈\r\n', '8', 'public_link', '0', '1', '1398933475', '1398933475', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('98', 'is_use', '是否为当前管理的公众号', 'tinyint(2) NULL', 'bool', '0', '', '0', '0:不是\r\n1:是', '8', 'public_link', '0', '1', '1398996982', '1398996975', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('99', 'attach', '上传文件', 'int(10) unsigned NOT NULL ', 'file', '', '支持xls,xlsx两种格式', '1', '', '9', 'import', '1', '1', '1407554177', '1407554177', '', '3', '', 'regex', '', '3', 'function');
 INSERT INTO `wp_attribute` VALUES ('100', 'icon', '分类图标', 'int(10) unsigned NULL ', 'picture', '', '', '1', '', '10', 'addon_category', '0', '1', '1400047745', '1400047745', '', '3', '', 'regex', '', '3', 'function');
@@ -769,7 +769,7 @@ CREATE TABLE `wp_cms` (
 -- Records of wp_cms
 -- ----------------------------
 INSERT INTO `wp_cms` VALUES ('1', '什么样的社区产品才是最好的？', '102', '在当下，大部分微社区并不微，只是把PC版的论坛模式照搬到手机端，用户操作起来比较麻烦，这并是真正的微社区，这只能算是一个过渡的产品而已。真正的微社区应该能同时照顾到用户发布内容的便捷性和社区运营需要的内容丰富性', '1474907966');
-INSERT INTO `wp_cms` VALUES ('2', '学微信小程序开发---从开发CMS系统学起', '101', '实践中学习是开发者最好最快的学习方法。本教程将和大家从零开始一步一步搭建微信小程序CMS系统，每个章节都会涉及到不同的知识点，等教程学习完你不但掌握了小程序开发全部知识，同时还拥有一个完整作品的开发经验！ ----weiphp的凡星', '1474908960');
+INSERT INTO `wp_cms` VALUES ('2', '学微信小程序开发---从开发CMS系统学起', '101', '实践中学习是开发者最好最快的学习方法。本教程将和大家从零开始一步一步搭建微信小程序报价平台系统，每个章节都会涉及到不同的知识点，等教程学习完你不但掌握了小程序开发全部知识，同时还拥有一个完整作品的开发经验！ ----weiphp的凡星', '1474908960');
 INSERT INTO `wp_cms` VALUES ('3', '【圆梦云出品】全网首个微信小程序开发视频教程', '103', '     这几天微信小程序的消息一直在刷屏，大家都比较兴奋，仿佛又看到一个新大陆，新金坑。奈何能参与内测的又少之又少。我们WeiPHP团队作为专业的微信第三方服务商，自然也是伸长脖子到处观望，并且第一时间跟进和研读各种渠道来的信息。由于消息太过散乱，过程中遇到种坑各种问题。现在是时候结合自身的实践，出个视频和大家分享下了，期望让大家不再绕弯，快速进入开发中来。当然了，大家都是在同一起跑线上，相对行业里的一些专家大牛们，我们可能也只是迷途小学生而已，如果有不对的地方也欢迎在我们社区（bbs.weiphp.cn）里指出来，我们愿望和大家一起进步', '1474909056');
 INSERT INTO `wp_cms` VALUES ('4', '【weiphp新产品】梦云社区强势上线 开启移动社区新时代', '110', '经过weiphp团队历经数月精心筹备的梦云社区今天强势上线啦！\r\n在这里您看到的每个细节都倾注了我们不懈的努力，\r\n在这里有一群与您一样热心向上的友友，等待与您分享交流，\r\n在这里有最专业的梦云社区客服，随时准备为您答疑解惑，助您工作无忧，\r\n这里不仅可以发帖、回帖、查看动态，还支持PC和手机同步使用。\r\n融合了“手机+PC+APP”多模式，实现了社区一体化；从此手机+PC+APP真的“联姻”了。\r\n梦云社区链接：http://bbs.weiphp.cn/\r\n官方微信公众号：yuanmengyunkeji', '1474942170');
 INSERT INTO `wp_cms` VALUES ('5', '【weiphp产品】乐摇红包', '105', '乐摇红包营销利器，轻松几步即可发红包，助你快速吸粉，无使用门槛，任何公众号都可以一步集成摇红包功能；推广灵活，可以在微信群，朋友圈，公众号推送，活动现场，微信摇一摇等场景推广传播；营销内容多样，我们提供广告红包，名片红包，关注红包，帮拆红包，自燃红包，现场红包等营销方式。', '1474943288');
