@@ -14,11 +14,12 @@ class CmsController extends AddonsController{
         	$map['id'] = array('lt', $lastid);
         }
 
-    	$list = M('cms')->where($map)->order('id desc')->field('id,title,img,cTime,productPrice')->limit($limit)->select();
+    	$list = M('cms')->where($map)->order('id desc')->field('id,title,img,cTime,productPrice,PriceValidityTime,OrderProductNo')->limit($limit)->select();
 
     	foreach ($list as &$vo) {
     		$vo['img'] = get_cover_url($vo['img']);
     		$vo['cTime'] = time_format($vo['cTime']);
+			$vo['PriceValidityTime'] = time_format($vo['PriceValidityTime']);
     	}
 
     	//dump($list);
