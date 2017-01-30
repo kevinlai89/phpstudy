@@ -7,7 +7,7 @@ use Common\Controller\Plugin;
 /**
  * 级联菜单插件
  *
- * @author 凡星
+ * @author 翔鹰
  */
 class DynamicSelectAddon extends Plugin {
 	public $info = array (
@@ -15,7 +15,7 @@ class DynamicSelectAddon extends Plugin {
 			'title' => '动态下拉菜单',
 			'description' => '支持动态从数据库里取值显示',
 			'status' => 1,
-			'author' => '凡星',
+			'author' => '翔鹰',
 			'version' => '0.1',
 			'has_adminlist' => 0,
 			'type' => 0 

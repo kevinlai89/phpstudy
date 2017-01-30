@@ -5,7 +5,7 @@ use Common\Controller\Addon;
 
 /**
  * 微信小程序报价平台插件
- * @author 凡星
+ * @author 翔鹰
  */
 
     class CmsAddon extends Addon{
@@ -15,7 +15,7 @@ use Common\Controller\Addon;
             'title'=>'微信小程序报价平台',
             'description'=>'微信小程序报价平台内容管理系统',
             'status'=>1,
-            'author'=>'凡星',
+            'author'=>'翔鹰',
             'version'=>'0.1',
             'has_adminlist'=>1
         );

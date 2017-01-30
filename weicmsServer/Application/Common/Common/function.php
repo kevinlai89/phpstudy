@@ -490,7 +490,7 @@ function get_addon_config($name) {
  * @author 麦当苗儿 <zuojiazi@vip.qq.com>
  */
 function addons_url($url, $param = array()) {
-	// 凡星：修复如user_center://user_center/add 识别错误的问题
+	// 翔鹰：修复如user_center://user_center/add 识别错误的问题
 	$urlArr = explode ( '://', $url );
 	if (stripos ( $urlArr [0], '_' ) !== false) {
 		$addons = $urlArr [0];
@@ -3269,8 +3269,8 @@ function chang_domain($url, $domain) {
 }
 // 获取当前网址的顶级域名
 function top_domain() {
-	if (strpos ( SITE_DOMAIN, 'weiphp.cn' ) !== false) {
-		return '.weiphp.cn';
+	if (strpos ( SITE_DOMAIN, '163.com' ) !== false) {
+		return '.163.com';
 	} else {
 		return '.oftenchat.cn';
 	}

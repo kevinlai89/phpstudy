@@ -4,7 +4,7 @@
 // +----------------------------------------------------------------------
 // | Copyright (c) 2013 http://www.onethink.cn All rights reserved.
 // +----------------------------------------------------------------------
-// | Author: 凡星
+// | Author: 翔鹰
 // +----------------------------------------------------------------------
 namespace Admin\Controller;
 
@@ -45,7 +45,7 @@ class UpdateController extends AdminController {
 	}
 	function getRemoteVersion() {
 		// cookie ( 'cookie_close_version', 0 );
-		$remote = 'http://www.weiphp.cn/index.php?s=/home/index/update_version';
+		$remote = 'http://www.163.com/index.php?s=/home/index/update_version';
 		$new_version = wp_file_get_contents ( $remote );
 		$res = $new_version > C ( 'SYSTEM_UPDATRE_VERSION' ) && cookie ( 'cookie_close_version' ) != $new_version;
 		echo $res ? $new_version : 0;
@@ -89,7 +89,7 @@ class UpdateController extends AdminController {
 		parent::_initialize ();
 		set_time_limit ( 0 );
 		
-		$this->remoteBaseURL = 'http://www.weiphp.cn'; // TODO
+		$this->remoteBaseURL = 'http://www.163.com'; // TODO
 		
 		$this->updateURL = $this->remoteBaseURL . '/index.php?s=/home/index/update_json&version=' . intval ( C ( 'SYSTEM_UPDATRE_VERSION' ) );
 	}

@@ -27,8 +27,8 @@ class WxPayConfig
 	 * 证书路径,注意应该填写绝对路径（仅退款、撤销订单时需要）
 	 * @var path
 	 */
-	const SSLCERT_PATH = 'http://project.weiphp.cn/weishi/WxpayAPI/cert/apiclient_cert.pem';
-	const SSLKEY_PATH = 'http://project.weiphp.cn/weishi/WxpayAPI/cert/apiclient_key.pem';
+	const SSLCERT_PATH = 'http://project.163.com/weishi/WxpayAPI/cert/apiclient_cert.pem';
+	const SSLKEY_PATH = 'http://project.163.com/weishi/WxpayAPI/cert/apiclient_key.pem';
 	
 	//=======【curl代理设置】===================================
 	/**

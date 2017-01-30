@@ -7,7 +7,7 @@ use Common\Controller\Plugin;
 /**
  * 动态多选菜单插件
  *
- * @author 凡星
+ * @author 翔鹰
  */
 class DynamicCheckboxAddon extends Plugin {
 	public $info = array (
@@ -15,7 +15,7 @@ class DynamicCheckboxAddon extends Plugin {
 			'title' => '动态多选菜单',
 			'description' => '支持动态从数据库里取值显示',
 			'status' => 1,
-			'author' => '凡星',
+			'author' => '翔鹰',
 			'version' => '0.1',
 			'has_adminlist' => 0,
 			'type' => 0 

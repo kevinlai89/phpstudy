@@ -7,7 +7,7 @@ use Common\Controller\Plugin;
 /**
  * 素材选择插件
  *
- * @author 凡星
+ * @author 翔鹰
  */
 class MaterialAddon extends Plugin {
 	public $info = array (
@@ -15,7 +15,7 @@ class MaterialAddon extends Plugin {
 			'title' => '素材选择',
 			'description' => '支持动态从素材库里选择素材',
 			'status' => 1,
-			'author' => '凡星',
+			'author' => '翔鹰',
 			'version' => '0.1',
 			'has_adminlist' => 0,
 			'type' => 0 

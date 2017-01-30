@@ -120,7 +120,7 @@ class IndexController extends HomeController {
 	// 下载weiphp
 	public function downloadFile() {
 		M ( 'config' )->where ( 'name="DOWNLOAD_COUNT"' )->setInc ( 'value' );
-		redirect ( 'http://down.weiphp.cn/weiphp.zip' );
+		redirect ( 'http://down.163.com/weiphp.zip' );
 	}
 	// 远程获取最新版本号
 	public function update_version() {

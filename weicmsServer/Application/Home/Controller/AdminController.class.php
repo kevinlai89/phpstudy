@@ -149,7 +149,7 @@ class AdminController extends HomeController {
 		if (IS_POST) {
 			$_POST ['status'] = 1;
 			/* 调用注册接口注册用户 */
-			$uid = D('Common/User')->register ( $_POST ['nickname'], $_POST ['password'], $_POST ['nickname'] . NOW_TIME . '@weiphp.cn' );
+			$uid = D('Common/User')->register ( $_POST ['nickname'], $_POST ['password'], $_POST ['nickname'] . NOW_TIME . '@163.com' );
 			if (0 < $uid) { // 注册成功
 				$_POST ['uid'] = $uid;
 				$Model = D ( parse_name ( get_table_name ( $model ['id'] ), 1 ) );

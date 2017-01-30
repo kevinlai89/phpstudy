@@ -7,7 +7,7 @@ use Common\Controller\Plugin;
 /**
  * 动态多选菜单插件
  *
- * @author 凡星
+ * @author 翔鹰
  */
 class PrizeAddon extends Plugin {
 	public $info = array (
@@ -15,7 +15,7 @@ class PrizeAddon extends Plugin {
 			'title' => '奖品选择',
 			'description' => '支持多种奖品选择',
 			'status' => 1,
-			'author' => '凡星',
+			'author' => '翔鹰',
 			'version' => '0.1',
 			'has_adminlist' => 0,
 			'type' => 0 

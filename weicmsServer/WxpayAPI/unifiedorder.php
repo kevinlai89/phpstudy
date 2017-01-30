@@ -34,7 +34,7 @@ if(!empty($_GET)){
 // $input->SetBody($body);
 // $input->SetOut_trade_no($out_trade_no);
 // $input->SetTotal_fee($totalfee*100);
-// $input->SetNotify_url("http://project.weiphp.cn/weishi/WxpayAPI/notify.php");
+// $input->SetNotify_url("http://project.163.com/weishi/WxpayAPI/notify.php");
 // $input->SetTrade_type("JSAPI");
 // $input->SetOpenid($openId);
 // $order = WxPayApi::unifiedOrder($input);
@@ -56,7 +56,7 @@ if(!empty($_GET)){
 // $input->SetTime_start(date("YmdHis"));
 // $input->SetTime_expire(date("YmdHis", time() + 600));
 // $input->SetGoods_tag("test");
-// $input->SetNotify_url("http://project.weiphp.cn/weishi/WxpayAPI/notify.php");
+// $input->SetNotify_url("http://project.163.com/weishi/WxpayAPI/notify.php");
 // $input->SetTrade_type("JSAPI");
 // $input->SetOpenid($openId);
 // $order = WxPayApi::unifiedOrder($input);

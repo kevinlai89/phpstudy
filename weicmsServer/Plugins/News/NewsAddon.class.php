@@ -7,7 +7,7 @@ use Common\Controller\Plugin;
 /**
  * 图文素材选择器插件
  *
- * @author 凡星
+ * @author 翔鹰
  */
 class NewsAddon extends Plugin {
 	public $info = array (
@@ -15,7 +15,7 @@ class NewsAddon extends Plugin {
 			'title' => '图文素材选择器',
 			'description' => '',
 			'status' => 1,
-			'author' => '凡星',
+			'author' => '翔鹰',
 			'version' => '0.1',
 			'has_adminlist' => 0 
 	);

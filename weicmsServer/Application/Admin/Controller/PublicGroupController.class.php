@@ -11,7 +11,7 @@ namespace Admin\Controller;
 /**
  * 公众号管理控制器
  *
- * @author 凡星
+ * @author 翔鹰
  */
 class PublicGroupController extends AdminController {
 	// 公众号等级

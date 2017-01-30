@@ -4,14 +4,14 @@
 // +----------------------------------------------------------------------
 // | Copyright (c) 2013 http://www.onethink.cn All rights reserved.
 // +----------------------------------------------------------------------
-// | Author: 凡星
+// | Author: 翔鹰
 // +----------------------------------------------------------------------
 namespace Admin\Controller;
 
 /**
  * 模型数据管理控制器
  *
- * @author 凡星
+ * @author 翔鹰
  */
 class CreditController extends AdminController {
 	
@@ -20,7 +20,7 @@ class CreditController extends AdminController {
 	 *
 	 * @param String $model
 	 *        	模型标识
-	 * @author 凡星
+	 * @author 翔鹰
 	 */
 	public function lists() {
 		$model = $this->getModel ( 'credit_config' );

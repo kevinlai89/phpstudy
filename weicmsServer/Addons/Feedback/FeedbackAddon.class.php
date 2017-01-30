@@ -5,7 +5,7 @@ use Common\Controller\Addon;
 
 /**
  * 用户反馈插件
- * @author 凡星
+ * @author 翔鹰
  */
 
     class FeedbackAddon extends Addon{
@@ -15,7 +15,7 @@ use Common\Controller\Addon;
             'title'=>'用户反馈',
             'description'=>'',
             'status'=>1,
-            'author'=>'凡星',
+            'author'=>'翔鹰',
             'version'=>'0.1',
             'has_adminlist'=>1
         );

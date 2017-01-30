@@ -599,7 +599,7 @@ abstract class Controller {
 		}
 	}
 	
-	// ***************************通用的模型数据操作 begin 凡星********************************/
+	// ***************************通用的模型数据操作 begin 翔鹰********************************/
 	public function getModel($model = null) {
 		$model || $model = $_REQUEST ['_addons'];
 		$model || $model = $_REQUEST ['model'];
@@ -619,7 +619,7 @@ abstract class Controller {
 	 *
 	 * @param String $model
 	 *        	模型标识
-	 * @author 凡星
+	 * @author 翔鹰
 	 */
 	public function common_lists($model = null, $page = 0, $templateFile = '', $order = 'id desc') {
 		// 获取模型信息
